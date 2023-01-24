@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Account</h1>
+
+    <label for="username">Name:</label>
+    <br/>
+    <input
+            type="text"
+            id="username"
+            value="Siran Cao"
+            placeholder="John Doe"
+            title="Please enter your name"
+    />
+
+    <br/>
+    <br/>
+    <label for="bio">Bio:</label>
+
+    <br/>
+    <textarea
+            placeholder="I like to ski, etc."
+            id="bio"
+            rows="10"
+            cols="40">Northeastern student, studying WebDev
+    </textarea>
+    <br/>
+    <br/>
+
+    <label>Married:</label>
+    <br/>
+
+    <!--Two ways to wrap text and radio together to make the selecting area larger-->
+    <input id="married-yes" type="radio" name="married"/>
+    <label for="married-yes">Yes</label>
+
+    <label>
+        <input id="married-no" type="radio" name="married"/>No
+    </label>
+
+    <br/>
+    <br/>
+    <label>Marital Status</label>
+    <br/>
+    <select>
+        <!--value is to apply a value to send or store the selected value in database-->
+        <option value="MARRIED">Married</option>
+        <option value="SINGLE">Single</option>
+        <option value="WIDOW">Widow</option>
+    </select>
+
+    <br/>
+    <br/>
+    <label>Courses Taking This Semester</label>
+    <br/>
+    <label><input type="checkbox"/>CS5001</label><br/>
+    <label><input type="checkbox"/>CS5004</label><br/>
+    <label><input type="checkbox"/>CS5008</label><br/>
+    <label><input type="checkbox"/>CS5610</label><br/>
+    <label><input type="checkbox"/>CS5520</label><br/>
+
+    <br/>
+    <br/>
+    <label>Email</label>
+    <input type="email"/>
+
+    <br/>
+    <br/>
+    <label>Age</label>
+    <input type="number" min="0" max="100"/>
+
+    <br/>
+    <br/>
+    <label>Phone</label>
+    <input type="tel"/>
+
+    <br/>
+    <br/>
+    <label>Date of Birth</label>
+    <input
+            type="date"
+            value="2023-01-20"
+            min="2021-01-01"
+            max="2024-01-01"
+    />
+    <br/>
+    <br/>
+    <button>Submit</button>
+    <button><a href="index.html">Cancel</a></button>
+
+</body>
+</html>
