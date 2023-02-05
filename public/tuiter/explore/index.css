@@ -34,7 +34,7 @@
     border-radius: 50px;
 }
 
-.wd-flex-space-between {
+.wd-flex-space-evenly {
     justify-content: space-between;
     display: flex;
 }
