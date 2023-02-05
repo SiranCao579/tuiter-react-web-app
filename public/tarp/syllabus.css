@@ -1,0 +1,29 @@
+h2 {
+    background-color: #357e91;
+    color: #ebf1f1;
+}
+
+p {
+    background-color: bisque;
+    color: darkgreen;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.border-red {border-color: red}
+
+.border-blue {border-color: blue}
+
+.border-dashed {border-style: dashed}
+
+.border-fat {border-width: 30px}
+
+.margin-15 {margin: 15px}
+
+.margin-30 {margin: 30px}
+
+.margin-40 {margin: 40px}
+
+.ridge-border {border-style: ridge}

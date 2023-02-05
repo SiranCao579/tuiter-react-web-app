@@ -1,0 +1,143 @@
+
+.wd-background-black {
+    background-color: black;
+}
+
+.wd-background-darkgrey {
+    background-color: darkgray;
+}
+
+.wd-border-style {
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-background-transparent {
+    background-color: transparent;
+}
+
+.wd-text-color-white {
+     color: white;
+ }
+
+.wd-wrapper {
+    display: grid;
+}
+.wd-left-margin-16 {
+    margin-left: 16px;
+}
+
+.wd-right-margin-12 {
+    margin-right: 12px;
+}
+
+.wd-rounded-corner {
+    border-radius: 50px;
+}
+
+.wd-flex-space-evenly {
+    justify-content: space-between;
+    display: flex;
+}
+
+.wd-search {
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.wd-search-icon {
+    width: 20px;
+    height: 20px;
+    margin: 5px 20px;
+    float: left;
+}
+
+.wd-search-input {
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+    float: left;
+    width: 80%;
+}
+
+.wd-bottom-border-gone {
+    border-bottom: none;
+}
+
+.wd-setting-icon {
+    width: 30px;
+    height: 30px;
+    margin:15px 10px 12px 12px;
+}
+
+.wd-top-border-gone {
+    border-top: none;
+}
+
+.wd-navigation-bar {
+    display: inline-block;
+    width: 16%;
+}
+
+.wd-a-style {
+    display: block;
+    padding: 16px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.wd-ul {
+    list-style-type: none;
+    text-align: center;
+    border-width: 1px;
+}
+
+.wd-navigation-blue {
+    color: rgb(29,161,242);
+    border-bottom: rgb(29,161,242);
+    border-bottom-style: solid;
+}
+
+.wd-bottom-border-bold {
+    border-bottom: rgb(47, 51, 54);
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-topic-ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.wd-topic-li {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-more-icon {
+    width: 20px;
+    height: 20px;
+    margin: 10px 16px;
+}
+
+.wd-suggested-news-image-style {
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+    border-radius: 20px;
+}
+
+.wd-news-heading-size {
+    font-size: 18px;
+    margin-top: 10px;
+}

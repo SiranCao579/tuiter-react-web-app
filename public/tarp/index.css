@@ -1,0 +1,27 @@
+
+.float-left {
+    float: left;
+}
+
+.portrait-dimension {
+    width: 30%;
+}
+
+.border-ridge-palevioletred {
+    border-style: ridge;
+    border-color: palevioletred;
+    border-width: 10px;
+}
+
+.rotate-30 {
+    transform: rotate(30deg);
+}
+
+.gradient-blue {
+    background: linear-gradient(cornflowerblue, cyan);
+}
+
+.round-top-border {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}

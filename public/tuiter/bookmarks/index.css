@@ -1,0 +1,147 @@
+
+.wd-background-black {
+    background-color: black;
+}
+
+.wd-background-darkgrey {
+    background-color: darkgray;
+}
+
+.wd-border-style {
+    border: 1px solid rgb(47, 51, 54);
+}
+
+.wd-background-transparent {
+    background-color: transparent;
+}
+
+.wd-text-color-white {
+    color: white;
+}
+
+.wd-wrapper {
+    display: grid;
+}
+
+.wd-left-padding-16 {
+    padding-left: 16px;
+}
+
+.wd-top-bottom-padding-12 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-left-margin-12 {
+    margin-left: 12px;
+}
+.wd-left-right-padding-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.wd-title {
+    font-size: 20px;
+    color: white;
+}
+
+.wd-user {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-top-border {
+    border-top: 1px solid rgb(47, 51, 54);
+}
+
+.wd-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+.wd-user-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+}
+
+.wd-author-and-handle {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-font-lightgray {
+    color: rgb(110, 118, 125);
+}
+.wd-paragraph {
+    font-size: 15px;
+    max-width: 506px;
+}
+
+.wd-bottom-margin-12 {
+    margin-bottom: 12px;
+}
+
+.wd-rounded-corner {
+    border-radius: 20px;
+}
+
+.wd-news-image {
+    width: 504px;
+    height: 264px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.padding-12 {
+    padding: 12px;
+}
+
+.wd-post {
+    font-size: 15px;
+    max-width: 480px;
+}
+
+.wd-bottom-margin-5 {
+    margin-bottom: 5px;
+}
+
+.wd-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+}
+
+.wd-icon-4 {
+    width: 18px;
+    height: 18px;
+}
+
+.wd-right-margin {
+    margin-right: 12px;
+}
+
+.wd-li {
+    float: left;
+    width: 25%;
+}
+
+.wd-a-style {
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}
+
+.wd-text-color-red {
+    color: red;
+}
