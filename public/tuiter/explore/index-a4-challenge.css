@@ -1,0 +1,27 @@
+.logo-image {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.search-input {
+    padding-left: 60px;
+}
+
+.search-input-icon {
+    position: absolute;
+    left: 30px;
+    top: 30%;
+}
+
+.absolute-right-15 {
+    position: absolute;
+    right: 15px;
+}
+
+.image-style {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
