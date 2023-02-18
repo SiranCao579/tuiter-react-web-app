@@ -3,68 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../vendors/bootswatch/bootstrap.min.css">
     <title>Canvas</title>
 </head>
 <body>
 
-    <div class="container-fluid">
-        <a href="../index.html">Back</a>
-
-        <h1>Welcome to Tarp</h1>
-        <div class="row">
-            <div class="d-none d-md-block col-md-2 col-xl-2 col-xxl-2">
-                <div class="list-group">
-                    <a class="list-group-item" href="https://www.northeastern.edu/#_ga=2.232423900.256187983.1675125263-1702783150.1657919063">Northeastern</a>
-                    <a class="list-group-item" href="account.html">Account</a>
-                    <a class="list-group-item" href="#">Dashboard</a>
-                    <a class="list-group-item" href="#">Courses</a>
-                    <a class="list-group-item" href="#">Calendar</a>
-                    <a class="list-group-item" href="#">Inbox</a>
-                </div>
-            </div>
-            <div class="d-none d-md-block col-md-2 col-xl-2 col-xxl-2">
-                <ul class="list-group">
-                    <!--Unordered list are not ordered, has bullets before it-->
-                    <li class="list-group-item">Home</li>
-                    <li class="list-group-item">Modules</li>
-                    <li class="list-group-item">Piazza</li>
-                    <li class="list-group-item">Zoom Meetings</li>
-                    <li class="list-group-item">Assignments</li>
-                    <li class="list-group-item">Quizzes</li>
-                    <li class="list-group-item">
-                        <a href="gradebook.html">Grades</a>
-                    </li>
-                    <li class="list-group-item">People</li>
-                </ul>
-            </div>
-            <div class="col-md-8 col-xl-7 col-xxl-7">
-                <div class="list-group mb-3">
-                    <a class="list-group-item list-group-item-primary">Resources</a>
-                    <a class="list-group-item" href="syllabus.html">Syllabus</a>
-                    <a class="list-group-item" href="#">Piazza</a>
-                    <a class="list-group-item" href="#">Project</a>
-                    <a class="list-group-item" href="#">Github</a>
-                </div>
-                <div class="list-group">
-                    <a class="list-group-item list-group-item-secondary">Required Textbook</a>
-                    <a class="list-group-item" href="#">book1</a>
-                    <a class="list-group-item" href="#">book2</a>
-                    <a class="list-group-item" href="#">book3</a>
-                    <a class="list-group-item" href="#">book4</a>
-                </div>
-                <div>Office Hours</div>
-                <div>Week 1</div>
-            </div>
-            <div class="d-none d-xl-block col-xl-1 col-xxl-1">
-                <div class="list-group">
-                    <a class="list-group-item">Right side bar</a>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-
-
+    <div id="tarp"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!--    This form doesn't show the dependency between these js files, we can do it as import/export in index.js-->
+<!--    <script src="TarpNavigator.js"></script>-->
+<!--    <script src="CourseNavigator.js"></script>-->
+<!--    <script src="Modules.js"></script>-->
+<!--    <script src="Sidebar.js"></script>-->
+    <script src="index.js" type="module"></script>
 </body>
 </html>
