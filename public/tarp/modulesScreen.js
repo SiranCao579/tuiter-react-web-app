@@ -1,4 +1,8 @@
-const tarpElement = $('#tarp')
+import TarpNavigator from "./TarpNavigator.js";
+import CourseNavigator from "./CourseNavigator.js";
+import Modules from "./Modules.js";
+
+const tarpElement = $('#tarp-modules')
 tarpElement.append(`
     <div class="container-fluid">
         <a href="../index.html">Back</a>

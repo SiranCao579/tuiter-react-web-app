@@ -1,3 +1,8 @@
+import TarpNavigator from "./TarpNavigator.js";
+import CourseNavigator from "./CourseNavigator.js";
+import Sidebar from "./Sidebar.js";
+import Modules from "./Modules.js";
+
 const tarpElement = $('#tarp')
 tarpElement.append(`
     <div class="container-fluid">

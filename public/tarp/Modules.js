@@ -1,4 +1,4 @@
-function Modules() {
+export default function Modules() {
     return(`
         <div class="list-group mb-3">
             <a class="list-group-item list-group-item-primary">Resources</a>

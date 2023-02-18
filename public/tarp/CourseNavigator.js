@@ -20,5 +20,6 @@ function CourseNavigator(highlight) {
                 <a class="list-group-item ${highlight === section.label ? 'active' : ''}" 
                     href="${section.href}">${section.label}</a>`).join('')}
         </div>
-    `)
+    `);
 }
+export default CourseNavigator;

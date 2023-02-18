@@ -10,3 +10,4 @@ function TarpNavigator() {
         </div>
     `)
 }
+export default TarpNavigator;
