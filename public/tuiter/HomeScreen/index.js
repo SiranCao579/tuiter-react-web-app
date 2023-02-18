@@ -12,7 +12,7 @@ function homeComponent() {
                 <div class="list-group">${PostList()}</div>
            </div>
            <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
-                <div class="list-group">
+                <div class="list-group border-bottom border-secondary">
                     <div class="list-group-item fw-bold bg-transparent border-bottom-0" style="font-size: 20px;">What's happpening</div>
                     ${PostSummaryList()}
                 </div>
