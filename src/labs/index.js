@@ -8,5 +8,6 @@ function Labs() {
             <Assignment6/>
         </div>
     );
+
 }
 export default Labs;
