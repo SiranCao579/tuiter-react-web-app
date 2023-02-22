@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 123,
+    "userName": "NASA",
+    "handle": "NASA",
+    "avatarIcon": "nasa.jpg"
+  },
+  {
+    "_id": 234,
+    "userName": "Tesla",
+    "handle": "tesla",
+    "avatarIcon": "tesla.jpg"
+  },
+  {
+    "_id": 345,
+    "userName": "SpaceX",
+    "handle": "SpaceX",
+    "avatarIcon": "spacex.jpg"
+  },
+  {
+    "_id": 456,
+    "userName": "Pointsbet Sportsb...",
+    "handle": "PointsBetUSA",
+    "avatarIcon": "pointsbet.jpg"
+  },
+  {
+    "_id": 678,
+    "userName": "Matt Wallace",
+    "handle": "MattWallace888",
+    "avatarIcon": "matt.jpg"
+  }
+]

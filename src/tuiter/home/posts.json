@@ -1,0 +1,47 @@
+[
+  {
+    "_id": 123,
+    "userImage": "elon",
+    "userName": "Elon Musk",
+    "userLabel": "elonmusk",
+    "postTime": "23h",
+    "postDetail": "Amazing show about @Inspiration4x mission!",
+    "detailImage": "elonPost",
+    "detailTitle": "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
+    "detailOverview": "From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space",
+    "detailLink": "netflix.com",
+    "comment": "4.2K",
+    "retuit": "3.5K",
+    "likes": "37.5K"
+  },
+  {
+    "_id": 234,
+    "userImage": "nyp",
+    "userName": "New York Post",
+    "userLabel": "nypost",
+    "postTime": "23h",
+    "postDetail": "Grimes seen reading Karl Marx following split with world's richest man Elon Musk",
+    "detailImage": "nypPost",
+    "detailTitle": "",
+    "detailOverview": "",
+    "detailLink": "",
+    "comment": "965",
+    "retuit": "2.4K",
+    "likes": "4K"
+  },
+  {
+    "_id": 345,
+    "userImage": "spacex",
+    "userName": "Spacex",
+    "userLabel": "SpaceX",
+    "postTime": "23h",
+    "postDetail": "Dennis and Akiko Tito are the first two crewmembers on Starship's second commercial spaceflight around the Moon",
+    "detailImage": "spacexPost",
+    "detailTitle": "",
+    "detailOverview": "",
+    "detailLink": "",
+    "comment": "1,016",
+    "retuit": "1,769",
+    "likes": "16.8K"
+  }
+]
