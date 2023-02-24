@@ -11,7 +11,7 @@ const ExploreComponent = () => {
                         <i className="bi bi-search position-absolute wd-search-input-icon"></i>
                     </div>
                     <div className="col-1">
-                        <i className="wd-bottom-4 text-primary float-end bi bi-gear-fill fs-2 position-relative"></i>
+                        <i className="text-primary float-end bi bi-gear-fill fa-xl position-relative mt-2"></i>
                     </div>
                 </div>
             </div>
