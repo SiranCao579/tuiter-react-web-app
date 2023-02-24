@@ -5,7 +5,7 @@ import WhoToFollowListItem from "./who-to-follow-list-item";
 const WhoToFollowList = () => {
     return(
         <ul className="list-group">
-            <li className="list-group-item border-0"><h2>Who to follow</h2></li>
+            <li className="list-group-item pt-3 pb-0"><h4>Who to follow</h4></li>
             {
                 whoArray.map(who =>
                     <WhoToFollowListItem key={who._id} who={who}/>

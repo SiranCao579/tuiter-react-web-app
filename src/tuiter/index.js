@@ -22,6 +22,7 @@ function Tuiter() {
                 </div>
                 <div className="col-10 col-lg-7 col-xl-6">
                     <Routes>
+                        <Route index    element={<ExploreComponent/>}/>
                         <Route path="home"    element={<HomeComponent/>}/>
                         <Route path="explore" element={<ExploreComponent/>}/>
                     </Routes>

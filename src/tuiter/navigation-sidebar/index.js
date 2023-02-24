@@ -29,12 +29,6 @@ const NavigationSidebar = () => {
                     <div className="d-done d-sm-none d-md-none d-lg-none d-xl-block col ms-3"></div>
                 </div>
             </Link>
-            <Link to="/" className="list-group-item">
-                <div className="row">
-                    <div className="col-1"><FontAwesomeIcon icon={faTag} size={"lg"}/></div>
-                    <div className="d-done d-sm-none d-md-none d-lg-none d-xl-block col ms-3">Labs</div>
-                </div>
-            </Link>
             <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
                 <div className="row">
                     <div className="col-1"><FontAwesomeIcon icon={faHome} size={"lg"}/></div>
@@ -47,37 +41,43 @@ const NavigationSidebar = () => {
                     <div className="d-done d-sm-none d-md-none d-lg-none d-xl-block col ms-3">Explore</div>
                 </div>
             </Link>
-            <Link to="/" className={`list-group-item ${active === 'notifications'?'active':''}`}>
+            <Link to="/" className="list-group-item">
+                <div className="row">
+                    <div className="col-1"><FontAwesomeIcon icon={faTag} size={"lg"}/></div>
+                    <div className="d-done d-sm-none d-md-none d-lg-none d-xl-block col ms-3">Labs</div>
+                </div>
+            </Link>
+            <Link to="" className={`list-group-item ${active === 'notifications'?'active':''}`}>
                 <div className="row">
                     <div className="col-1"><FontAwesomeIcon icon={faBell} size={"lg"}/></div>
                     <div className="d-done d-sm-none d-md-none d-lg-none d-xl-block col ms-3">Notifications</div>
                 </div>
             </Link>
-            <Link to="/" className={`list-group-item ${active === 'messages'?'active':''}`}>
+            <Link to="" className={`list-group-item ${active === 'messages'?'active':''}`}>
                 <div className="row">
                     <div className="col-1"><FontAwesomeIcon icon={faEnvelope} size={"lg"}/></div>
                     <div className="d-done d-sm-none d-md-none d-lg-none d-xl-block col ms-3">Messages</div>
                 </div>
             </Link>
-            <Link to="/" className={`list-group-item ${active === 'bookmarks'?'active':''}`}>
+            <Link to="" className={`list-group-item ${active === 'bookmarks'?'active':''}`}>
                 <div className="row">
                     <div className="col-1"><FontAwesomeIcon icon={faBookmark} size={"lg"}/></div>
                     <div className="d-done d-sm-none d-md-none d-lg-none d-xl-block col ms-3">Bookmarks</div>
                 </div>
             </Link>
-            <Link to="/" className={`list-group-item ${active === 'lists'?'active':''}`}>
+            <Link to="" className={`list-group-item ${active === 'lists'?'active':''}`}>
                 <div className="row">
                     <div className="col-1"><FontAwesomeIcon icon={faList} size={"lg"}/></div>
                     <div className="d-done d-sm-none d-md-none d-lg-none d-xl-block col ms-3">Lists</div>
                 </div>
             </Link>
-            <Link to="/" className={`list-group-item ${active === 'profile'?'active':''}`}>
+            <Link to="" className={`list-group-item ${active === 'profile'?'active':''}`}>
                 <div className="row">
                     <div className="col-1"><FontAwesomeIcon icon={faUser} size={"lg"}/></div>
                     <div className="d-done d-sm-none d-md-none d-lg-none d-xl-block col ms-3">Profile</div>
                 </div>
             </Link>
-            <Link to="/" className={`list-group-item ${active === 'more'?'active':''}`}>
+            <Link to="" className={`list-group-item ${active === 'more'?'active':''}`}>
                 <div className="row">
                     <div className="col-1"><FontAwesomeIcon icon={faEllipsisH} size={"lg"}/></div>
                     <div className="d-done d-sm-none d-md-none d-lg-none d-xl-block col ms-3">More</div>
