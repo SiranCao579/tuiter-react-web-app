@@ -71,7 +71,7 @@ const NavigationSidebar = () => {
                     <div className="d-done d-sm-none d-md-none d-lg-none d-xl-block col ms-3">Lists</div>
                 </div>
             </Link>
-            <Link to="" className={`list-group-item ${active === 'profile'?'active':''}`}>
+            <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}>
                 <div className="row">
                     <div className="col-1"><FontAwesomeIcon icon={faUser} size={"lg"}/></div>
                     <div className="d-done d-sm-none d-md-none d-lg-none d-xl-block col ms-3">Profile</div>

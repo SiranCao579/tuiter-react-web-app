@@ -1,7 +1,11 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faCheckCircle, faEllipsisH, faLink,} from "@fortawesome/free-solid-svg-icons";
+import {faCheckCircle} from "@fortawesome/free-solid-svg-icons";
 import TuitStats from "./TuitStats";
+import './index.css';
+import {useDispatch} from "react-redux";
+import {deleteTuit} from "./tuits-reducer";
+
 const TuitItem = (
     {
         post = {
@@ -20,6 +24,11 @@ const TuitItem = (
         }
     }
 ) => {
+    const dispatch = useDispatch();
+    const deleteTuitHandler = (id) => {
+        dispatch(deleteTuit(id));
+    }
+
     return(
         <div className="list-group-item bg-transparent">
             <div className="row mt-2">
@@ -29,10 +38,11 @@ const TuitItem = (
                 <div className="col ms-3">
                     <div className="d-flex justify-content-between">
                         <div className="flex-column">
-                            <b>{post.userName}</b><FontAwesomeIcon icon={faCheckCircle} className="ms-1 me-2"/>
+                            <b>{post.userName}</b><FontAwesomeIcon icon={faCheckCircle} className="ms-1 me-2 text-primary"/>
                             <span className="text-dark">@ {post.topic} · {post.time}</span>
                         </div>
-                        <div className="flex-column"><a className="text-white" href="#"><FontAwesomeIcon icon={faEllipsisH} size={"lg"}/></a></div>
+                        <i className="bi bi-x-lg float-end clickable"
+                           onClick={() => deleteTuitHandler(post._id)}></i>
                     </div>
                     <div>{post.tuit}</div>
                     <TuitStats key={post._id} post={post}/>
