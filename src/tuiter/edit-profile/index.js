@@ -11,7 +11,10 @@ const EditProfile = () => {
     const navigate = useNavigate();
     const dispatch = useDispatch();
 
-    const handleSaveButton = () => {dispatch(updateProfile(profile))};
+    const handleSaveButton = () => {
+        dispatch(updateProfile(profile));
+        navigate(-1);
+    };
 
     return(
         <div className="container">
