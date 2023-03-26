@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {useDispatch} from "react-redux";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faComment, faHeart, faRetweet, faShare} from "@fortawesome/free-solid-svg-icons";
-import {updateLikes} from "./tuits-reducer";
+import {updateLikes} from "../reducers/tuits-reducer";
 import './index.css';
 
 const TuitStats = (

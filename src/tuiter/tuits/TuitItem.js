@@ -4,7 +4,7 @@ import {faCheckCircle} from "@fortawesome/free-solid-svg-icons";
 import TuitStats from "./TuitStats";
 import './index.css';
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
+import {deleteTuit} from "../reducers/tuits-reducer";
 
 const TuitItem = (
     {

@@ -7,12 +7,13 @@ import {Routes, Route} from "react-router";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCheckSquare} from "@fortawesome/free-solid-svg-icons";
 import whoReducer from "./reducers/who-reducer";
-import tuitsReducer from "./tuits/tuits-reducer";
+import tuitsReducer from "./reducers/tuits-reducer";
 import HomeComponent from "./home";
 import { configureStore } from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
 import ProfileComponent from "./profile";
-const store = configureStore({reducer: {who: whoReducer, tuits: tuitsReducer}});
+import profileReducer from "./reducers/profile-reducer";
+const store = configureStore({reducer: {who: whoReducer, tuits: tuitsReducer, profile: profileReducer}});
 
 function Tuiter() {
     return (
