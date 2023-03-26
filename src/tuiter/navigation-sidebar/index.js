@@ -14,6 +14,7 @@ import {
     faTag
 } from "@fortawesome/free-solid-svg-icons";
 import {faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {useSelector} from "react-redux";
 
 
 
@@ -21,6 +22,8 @@ const NavigationSidebar = () => {
     const {pathname} = useLocation();
     const paths = pathname.split('/')
     const active = paths[2];
+    const {user} = useSelector((state) => state.profile);
+
     return (
         <div className="list-group">
             <Link to="/tuiter/home" className="list-group-item">
