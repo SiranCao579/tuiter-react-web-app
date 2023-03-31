@@ -8,6 +8,7 @@ export const findTuits  = async () => { // async tags this function as asynchron
     const tuits = response.data; // extract JSON array from response from server
     return tuits; // return tuits
 }
+
 export const deleteTuit = async (tid) => {
     const response = await axios.delete(`${TUITS_API}/${tid}`)
     return response.data
