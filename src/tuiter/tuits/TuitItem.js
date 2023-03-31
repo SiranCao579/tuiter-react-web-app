@@ -4,7 +4,7 @@ import {faCheckCircle} from "@fortawesome/free-solid-svg-icons";
 import TuitStats from "./TuitStats";
 import './index.css';
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../reducers/tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = (
     {
@@ -26,14 +26,14 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return(
         <div className="list-group-item bg-transparent">
             <div className="row mt-2">
                 <div className="col-1 ms-1">
-                    <img src={`/images/${post.image}.jpg`} className="rounded-pill user-image"/>
+                    <img src={`/images/${post.image}`} className="rounded-pill user-image"/>
                 </div>
                 <div className="col ms-3">
                     <div className="d-flex justify-content-between">
