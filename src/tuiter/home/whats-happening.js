@@ -30,7 +30,7 @@ const WhatsHappening = () => {
                         Tuit
                     </button>
                     <div className="text-primary fs-2">
-                        <i className="bi bi-card-image me-3"></i>
+                        <i className="bi bi-card-image me-3 "></i>
                         <i className="bi bi-filetype-gif me-3"></i>
                         <i className="bi bi-bar-chart me-3"></i>
                         <i className="bi bi-emoji-smile me-3"></i>
