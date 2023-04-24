@@ -14,12 +14,14 @@ import {Provider} from "react-redux";
 import ProfileComponent from "./profile";
 import EditProfile from "./edit-profile";
 import profileReducer from "./reducers/profile-reducer";
+import usersReducer from "../labs/a10/reducer/users-reducer";
 const store = configureStore({
     reducer: {
         who: whoReducer,
         tuits: tuitsReducer,
         profile: profileReducer,
-        tuitsData: tuitsReducer}});
+        tuitsData: tuitsReducer,
+        users: usersReducer}});
 
 function Tuiter() {
     return (
